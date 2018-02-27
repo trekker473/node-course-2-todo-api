@@ -138,5 +138,5 @@ describe('DELETE /todos/:id', () => {
     .delete('/todos/123abc')
     .expect(404)
     .end(done);
-  })
+  });
 });
